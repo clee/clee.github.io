@@ -13,9 +13,9 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Chris Lee résumé</title>
+  <meta name="description" content="Information about places I've worked, projects I've helped, and code I've written">
+  <meta name="author" content="Chris Lee [clee (at) mg8 dot org]">
 
   <!--  Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,6 @@
   <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
 
   <!-- CSS : implied media="all" -->
   <link rel="stylesheet" href="css/style.css?v=2">
@@ -40,16 +39,40 @@
 
   <div id="container">
     <header>
-
+        <h1>Chris Lee</h1>
+        <p>Software Developer, QA Engineer</p>
+        <b>T</b> +1.650.924.1142
+        <a href="mailto:clee@mg8.org">clee@mg8.org</a>
     </header>
-    
+
     <div id="main">
+        <section id="opensource">
+        <h1>Open Source Involvement</h1>
+        <dl>
+            <dt><a href="//github.com/clee/mobipocket/">Mobipocket</a> <em>10/2010—current</em></dt>
+            <dd>I'm currently working on a native Ruby library for interacting with Mobipocket-formatted (Kindle-compatible) ebook files.</dd>
 
+            <dt><a href="//github.com/clee/rump/">RUMP</a> <em>06/2008—07/2008</em></dt>
+            <dd>I designed new USB-native logic boards for the IBM Model M keyboard and built software to power them.</dd>
+
+            <dt><a href="//github.com/clee/mobilepushr/">MobilePushr</a> <em>09/2007—02/2008</em></dt>
+            <dd>I wrote an iPhone application in Objective-C using the jailbroken SDK (before the official iOS SDK was ever released) to batch upload photos to Flickr from the iPhone's Camera Roll.</dd>
+
+            <dt><a href="//www.kde.org/">KDE</a> <em>2000—2006</em></dt>
+            <dd>I contributed code to many different parts of KDE, writing graphical widget styles and applications in C++, tutorials for new developers, participating in developer conferences, maintaining various websites, as well as filing and fixing bugs.</dd>
+        </dl>
+        </section>
+        <section id="employment">
+        <h1>Employment History</h1>
+        <dl>
+            <dt><a href="//palantir.com/">Palantir Technologies</a> <em>QA engineer; 11/2008—current</em></dt>
+            <dt><a href="//nvidia.com/">NVIDIA</a> <em>Senior Linux QA engineer; 11/2007—09/2008</em></dt>
+            <dt><a href="//vmware.com/">VMware Inc.</a> <em>QA engineer; 04/2006—10/2007</em></dt>
+            <dt><a href="//redhat.com/">Red Hat Inc.</a> <em>Desktop QA engineer; 06/2004—01/2006</em></dt>
+        </dl>
+        </section>
     </div>
-    
-    <footer>
 
-    </footer>
   </div> <!--! end of #container -->
 
 
@@ -60,35 +83,10 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
   
   
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  <!-- end concatenated and minified scripts-->
-  
-  
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
     <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
   <![endif]-->
 
-  <!-- yui profiler and profileviewer - remove for production -->
-  <script src="js/profiling/yahoo-profiling.min.js"></script>
-  <script src="js/profiling/config.js"></script>
-  <!-- end profiling code -->
-
-
-  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet 
-       change the UA-XXXXX-X to be your site's ID -->
-  <script>
-   var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-   (function(d, t) {
-    var g = d.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s);
-   })(document, 'script');
-  </script>
-  
 </body>
 </html>

@@ -216,26 +216,37 @@ button {  width: auto; overflow: visible; }
 .clearfix { zoom: 1; }
 
 
-
-
-
-
- /* Primary Styles
-    Author: 
+/* Primary Styles
+   Author: Chris Lee <clee@mg8.org>
  */
 
+header {
+    float: left;
+    clear: none;
+    width: 11em;
+    height: 10em;
+    padding: 1ex;
+}
 
+#opensource, #employment {
+    margin: 1ex 1ex 1ex 16em;
+}
 
+h1 {
+    font-size: 24pt;
+    font-family: Georgia;
+}
 
+header h1 {
+    font-size: 16pt;
+}
 
-
-
-
-
-
-
-
-
+dt {
+    padding: 1ex 0 0 2em;
+}
+dt + dd {
+    padding: 0 0 1ex 3em;
+}
 
 
 /*
